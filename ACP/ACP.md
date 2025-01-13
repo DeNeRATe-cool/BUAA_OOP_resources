@@ -1,0 +1,27 @@
+- Checker
+- Database
+  - `field` onlineList
+  - `field` registerList
+  - `field` currentObject
+  - `field` courseList
+- Executor
+  - SystemExecutor
+    - `method` register
+    - `method` login
+    - `method` logout
+    - `method` printInfo
+  - StuExecutor
+    - `method` selectCourse
+  - TeacherExecutor
+    - `method` createCourse
+    - `method` cancelCourse
+  - AdminExecutor
+- Person
+  - Student
+    - `field` courses
+  - Teacher
+    - `field` courses
+    - `field` courseCount
+  - Admin
+- Course
+- Test

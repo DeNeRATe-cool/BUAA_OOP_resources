@@ -1,0 +1,2 @@
+javac -cp ./src/ -d ./bin src/com/oo/Denerate.java
+java -cp ./bin/ com.oo.Denerate
